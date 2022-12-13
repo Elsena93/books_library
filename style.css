@@ -1,0 +1,37 @@
+:root {
+
+}
+
+body {
+    margin: opx;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    gap: 16px;
+
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    
+    height: 192px;
+    width: 128px;
+    padding: 16px;
+
+    background-color: aquamarine;
+    
+}
+
+.form {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
